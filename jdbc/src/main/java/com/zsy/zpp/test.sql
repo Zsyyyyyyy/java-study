@@ -8,3 +8,4 @@ CREATE TABLE IF NOT EXISTS `zsy_test`(
     )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 insert zsy_test (id,title,author,date_test) value (1,"2121","1221","2021-12-01");
+update zsy_test set title = "11" where id = 3;
