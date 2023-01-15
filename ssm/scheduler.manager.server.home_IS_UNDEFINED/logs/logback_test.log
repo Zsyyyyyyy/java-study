@@ -1,0 +1,169 @@
+2023-01-15 19:07:10,923 [main] DEBUG org.apache.ibatis.logging.LogFactory [LogFactory.java : 105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-15 19:07:10,949 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 19:07:10,950 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 19:07:10,950 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 19:07:10,950 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 19:07:11,036 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 137] - Opening JDBC Connection
+2023-01-15 19:07:11,606 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 434] - Created connection 1128132589.
+2023-01-15 19:07:11,606 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 101] - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@433defed]
+2023-01-15 19:07:11,611 [main] DEBUG o.e.m.mapper.UserMapper.insertUser [BaseJdbcLogger.java : 137] - ==>  Preparing: insert into t_user values(null, 'admin','123456',23,'男','123456@qq.com')
+2023-01-15 19:07:11,639 [main] DEBUG o.e.m.mapper.UserMapper.insertUser [BaseJdbcLogger.java : 137] - ==> Parameters: 
+2023-01-15 19:07:11,643 [main] DEBUG o.e.m.mapper.UserMapper.insertUser [BaseJdbcLogger.java : 137] - <==    Updates: 1
+2023-01-15 19:07:11,645 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 70] - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@433defed]
+2023-01-15 19:07:11,646 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 123] - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@433defed]
+2023-01-15 19:07:11,647 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 91] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@433defed]
+2023-01-15 19:07:11,648 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 391] - Returned connection 1128132589 to pool.
+2023-01-15 20:53:30,340 [main] DEBUG org.apache.ibatis.logging.LogFactory [LogFactory.java : 105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-15 20:53:30,367 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 20:53:30,367 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 20:53:30,367 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 20:53:30,368 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 20:53:30,459 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 137] - Opening JDBC Connection
+2023-01-15 20:53:31,028 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 434] - Created connection 1128132589.
+2023-01-15 20:53:31,031 [main] DEBUG o.e.m.mapper.UserMapper.updateUser [BaseJdbcLogger.java : 137] - ==>  Preparing: update t_user set username = 'zsy', password = '150724' where id = 3
+2023-01-15 20:53:31,064 [main] DEBUG o.e.m.mapper.UserMapper.updateUser [BaseJdbcLogger.java : 137] - ==> Parameters: 
+2023-01-15 20:53:31,081 [main] DEBUG o.e.m.mapper.UserMapper.updateUser [BaseJdbcLogger.java : 137] - <==    Updates: 1
+2023-01-15 20:53:31,082 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 91] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@433defed]
+2023-01-15 20:53:31,082 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 391] - Returned connection 1128132589 to pool.
+2023-01-15 21:43:27,773 [main] DEBUG org.apache.ibatis.logging.LogFactory [LogFactory.java : 105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-15 21:43:27,798 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 21:43:27,798 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 21:43:27,799 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 21:43:27,799 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 21:43:27,879 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 137] - Opening JDBC Connection
+2023-01-15 21:43:28,421 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 434] - Created connection 1916575798.
+2023-01-15 21:43:28,426 [main] DEBUG o.e.m.mapper.UserMapper.updateUser [BaseJdbcLogger.java : 137] - ==>  Preparing: update t_user set username = 'zsy', password = '150724' where id = 3
+2023-01-15 21:43:28,456 [main] DEBUG o.e.m.mapper.UserMapper.updateUser [BaseJdbcLogger.java : 137] - ==> Parameters: 
+2023-01-15 21:43:28,459 [main] DEBUG o.e.m.mapper.UserMapper.updateUser [BaseJdbcLogger.java : 137] - <==    Updates: 1
+2023-01-15 21:43:28,460 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 91] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@723ca036]
+2023-01-15 21:43:28,461 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 391] - Returned connection 1916575798 to pool.
+2023-01-15 22:03:41,310 [main] DEBUG org.apache.ibatis.logging.LogFactory [LogFactory.java : 105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-15 22:03:41,335 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 22:03:41,335 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 22:03:41,336 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 22:03:41,336 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 22:03:41,421 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 137] - Opening JDBC Connection
+2023-01-15 22:03:41,985 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 434] - Created connection 1721246982.
+2023-01-15 22:03:41,988 [main] DEBUG o.e.m.mapper.UserMapper.getAllUser [BaseJdbcLogger.java : 137] - ==>  Preparing: select * from t_user
+2023-01-15 22:03:42,019 [main] DEBUG o.e.m.mapper.UserMapper.getAllUser [BaseJdbcLogger.java : 137] - ==> Parameters: 
+2023-01-15 22:03:42,093 [main] TRACE o.e.m.mapper.UserMapper.getAllUser [BaseJdbcLogger.java : 143] - <==    Columns: id, username, password, age, gender, email
+2023-01-15 22:03:42,093 [main] TRACE o.e.m.mapper.UserMapper.getAllUser [BaseJdbcLogger.java : 143] - <==        Row: 1, admin, 123456, 23, 男, 123456@qq.com
+2023-01-15 22:03:42,096 [main] TRACE o.e.m.mapper.UserMapper.getAllUser [BaseJdbcLogger.java : 143] - <==        Row: 2, admin, 123456, 23, 男, 123456@qq.com
+2023-01-15 22:03:42,098 [main] TRACE o.e.m.mapper.UserMapper.getAllUser [BaseJdbcLogger.java : 143] - <==        Row: 3, zsy, 150724, 23, 男, 123456@qq.com
+2023-01-15 22:03:42,098 [main] TRACE o.e.m.mapper.UserMapper.getAllUser [BaseJdbcLogger.java : 143] - <==        Row: 4, admin, 123456, 23, 男, 123456@qq.com
+2023-01-15 22:03:42,099 [main] DEBUG o.e.m.mapper.UserMapper.getAllUser [BaseJdbcLogger.java : 137] - <==      Total: 4
+2023-01-15 22:03:42,103 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 91] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@66982506]
+2023-01-15 22:03:42,103 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 391] - Returned connection 1721246982 to pool.
+2023-01-15 22:24:48,157 [main] DEBUG org.apache.ibatis.logging.LogFactory [LogFactory.java : 105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-15 22:24:48,185 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 22:24:48,185 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 22:24:48,186 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 22:24:48,186 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 22:24:48,276 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 137] - Opening JDBC Connection
+2023-01-15 22:24:48,820 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 434] - Created connection 1892627171.
+2023-01-15 22:24:48,823 [main] DEBUG o.e.m.mapper.UserMapper.getAllUser [BaseJdbcLogger.java : 137] - ==>  Preparing: select * from t_user
+2023-01-15 22:24:48,852 [main] DEBUG o.e.m.mapper.UserMapper.getAllUser [BaseJdbcLogger.java : 137] - ==> Parameters: 
+2023-01-15 22:24:48,910 [main] TRACE o.e.m.mapper.UserMapper.getAllUser [BaseJdbcLogger.java : 143] - <==    Columns: id, username, password, age, gender, email
+2023-01-15 22:24:48,910 [main] TRACE o.e.m.mapper.UserMapper.getAllUser [BaseJdbcLogger.java : 143] - <==        Row: 1, admin, 123456, 23, 男, 123456@qq.com
+2023-01-15 22:24:48,912 [main] TRACE o.e.m.mapper.UserMapper.getAllUser [BaseJdbcLogger.java : 143] - <==        Row: 2, admin, 123456, 23, 男, 123456@qq.com
+2023-01-15 22:24:48,913 [main] TRACE o.e.m.mapper.UserMapper.getAllUser [BaseJdbcLogger.java : 143] - <==        Row: 3, zsy, 150724, 23, 男, 123456@qq.com
+2023-01-15 22:24:48,913 [main] TRACE o.e.m.mapper.UserMapper.getAllUser [BaseJdbcLogger.java : 143] - <==        Row: 4, admin, 123456, 23, 男, 123456@qq.com
+2023-01-15 22:24:48,914 [main] DEBUG o.e.m.mapper.UserMapper.getAllUser [BaseJdbcLogger.java : 137] - <==      Total: 4
+2023-01-15 22:24:48,917 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 91] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@70cf32e3]
+2023-01-15 22:24:48,917 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 391] - Returned connection 1892627171 to pool.
+2023-01-15 23:16:15,314 [main] DEBUG org.apache.ibatis.logging.LogFactory [LogFactory.java : 105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-15 23:16:15,338 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:16:15,338 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:16:15,338 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:16:15,339 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:16:15,427 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 137] - Opening JDBC Connection
+2023-01-15 23:16:15,963 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 434] - Created connection 438589491.
+2023-01-15 23:16:15,967 [main] DEBUG o.e.m.m.UserMapper.getUserByName [BaseJdbcLogger.java : 137] - ==>  Preparing: select * from t_user where username = ?
+2023-01-15 23:16:15,998 [main] DEBUG o.e.m.m.UserMapper.getUserByName [BaseJdbcLogger.java : 137] - ==> Parameters: zsy(String)
+2023-01-15 23:16:16,053 [main] TRACE o.e.m.m.UserMapper.getUserByName [BaseJdbcLogger.java : 143] - <==    Columns: id, username, password, age, gender, email
+2023-01-15 23:16:16,054 [main] TRACE o.e.m.m.UserMapper.getUserByName [BaseJdbcLogger.java : 143] - <==        Row: 3, zsy, 150724, 23, 男, 123456@qq.com
+2023-01-15 23:16:16,057 [main] DEBUG o.e.m.m.UserMapper.getUserByName [BaseJdbcLogger.java : 137] - <==      Total: 1
+2023-01-15 23:16:16,060 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 91] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1a245833]
+2023-01-15 23:16:16,061 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 391] - Returned connection 438589491 to pool.
+2023-01-15 23:22:10,900 [main] DEBUG org.apache.ibatis.logging.LogFactory [LogFactory.java : 105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-15 23:22:10,932 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:22:10,933 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:22:10,933 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:22:10,933 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:22:11,054 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 137] - Opening JDBC Connection
+2023-01-15 23:22:11,568 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 434] - Created connection 477376212.
+2023-01-15 23:22:11,571 [main] DEBUG o.e.m.m.UserMapper.getUserByName [BaseJdbcLogger.java : 137] - ==>  Preparing: select * from t_user where username = 'zsy'
+2023-01-15 23:22:11,630 [main] DEBUG o.e.m.m.UserMapper.getUserByName [BaseJdbcLogger.java : 137] - ==> Parameters: 
+2023-01-15 23:22:11,656 [main] TRACE o.e.m.m.UserMapper.getUserByName [BaseJdbcLogger.java : 143] - <==    Columns: id, username, password, age, gender, email
+2023-01-15 23:22:11,657 [main] TRACE o.e.m.m.UserMapper.getUserByName [BaseJdbcLogger.java : 143] - <==        Row: 3, zsy, 150724, 23, 男, 123456@qq.com
+2023-01-15 23:22:11,660 [main] DEBUG o.e.m.m.UserMapper.getUserByName [BaseJdbcLogger.java : 137] - <==      Total: 1
+2023-01-15 23:22:11,663 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 91] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1c742ed4]
+2023-01-15 23:22:11,663 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 391] - Returned connection 477376212 to pool.
+2023-01-15 23:28:43,944 [main] DEBUG org.apache.ibatis.logging.LogFactory [LogFactory.java : 105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-15 23:28:43,970 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:28:43,970 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:28:43,970 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:28:43,970 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:29:44,955 [main] DEBUG org.apache.ibatis.logging.LogFactory [LogFactory.java : 105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-15 23:29:44,978 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:29:44,978 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:29:44,979 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:29:44,979 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:29:45,074 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 137] - Opening JDBC Connection
+2023-01-15 23:29:45,602 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 434] - Created connection 1551945522.
+2023-01-15 23:29:45,605 [main] DEBUG o.e.m.mapper.UserMapper.checkLogin [BaseJdbcLogger.java : 137] - ==>  Preparing: select * from t_user where username = ? and password = ?
+2023-01-15 23:29:45,637 [main] DEBUG o.e.m.mapper.UserMapper.checkLogin [BaseJdbcLogger.java : 137] - ==> Parameters: zsy(String), 150724(String)
+2023-01-15 23:29:45,692 [main] TRACE o.e.m.mapper.UserMapper.checkLogin [BaseJdbcLogger.java : 143] - <==    Columns: id, username, password, age, gender, email
+2023-01-15 23:29:45,692 [main] TRACE o.e.m.mapper.UserMapper.checkLogin [BaseJdbcLogger.java : 143] - <==        Row: 3, zsy, 150724, 23, 男, 123456@qq.com
+2023-01-15 23:29:45,694 [main] DEBUG o.e.m.mapper.UserMapper.checkLogin [BaseJdbcLogger.java : 137] - <==      Total: 1
+2023-01-15 23:29:45,697 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 91] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c80cf32]
+2023-01-15 23:29:45,697 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 391] - Returned connection 1551945522 to pool.
+2023-01-15 23:42:52,902 [main] DEBUG org.apache.ibatis.logging.LogFactory [LogFactory.java : 105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-15 23:42:52,926 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:42:52,926 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:42:52,926 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:42:52,926 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:42:53,016 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 137] - Opening JDBC Connection
+2023-01-15 23:42:53,545 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 434] - Created connection 2052910813.
+2023-01-15 23:42:53,549 [main] DEBUG o.e.m.mapper.UserMapper.checkLogin [BaseJdbcLogger.java : 137] - ==>  Preparing: select * from t_user where username = ? and password = ?
+2023-01-15 23:42:53,581 [main] DEBUG o.e.m.mapper.UserMapper.checkLogin [BaseJdbcLogger.java : 137] - ==> Parameters: zsy(String), 150724(String)
+2023-01-15 23:42:53,638 [main] TRACE o.e.m.mapper.UserMapper.checkLogin [BaseJdbcLogger.java : 143] - <==    Columns: id, username, password, age, gender, email
+2023-01-15 23:42:53,639 [main] TRACE o.e.m.mapper.UserMapper.checkLogin [BaseJdbcLogger.java : 143] - <==        Row: 3, zsy, 150724, 23, 男, 123456@qq.com
+2023-01-15 23:42:53,641 [main] DEBUG o.e.m.mapper.UserMapper.checkLogin [BaseJdbcLogger.java : 137] - <==      Total: 1
+2023-01-15 23:42:53,643 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 91] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7a5ceedd]
+2023-01-15 23:42:53,644 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 391] - Returned connection 2052910813 to pool.
+2023-01-15 23:54:23,521 [main] DEBUG org.apache.ibatis.logging.LogFactory [LogFactory.java : 105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-15 23:54:23,548 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:54:23,549 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:54:23,549 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:54:23,549 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:54:23,652 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 137] - Opening JDBC Connection
+2023-01-15 23:54:24,212 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 434] - Created connection 1272883899.
+2023-01-15 23:54:24,215 [main] DEBUG o.e.m.m.UserMapper.insertUserByMap [BaseJdbcLogger.java : 137] - ==>  Preparing: insert into t_user values(null, ?, ?, ?, ?, ? )
+2023-01-15 23:54:24,245 [main] DEBUG o.e.m.m.UserMapper.insertUserByMap [BaseJdbcLogger.java : 137] - ==> Parameters: wwy(String), 150724(String), 18(String), nan(String), 123321312@gmail.com(String)
+2023-01-15 23:54:48,422 [main] DEBUG org.apache.ibatis.logging.LogFactory [LogFactory.java : 105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-15 23:54:48,453 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:54:48,453 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:54:48,453 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:54:48,453 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-15 23:54:48,547 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 137] - Opening JDBC Connection
+2023-01-15 23:54:49,092 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 434] - Created connection 1293677337.
+2023-01-15 23:54:49,095 [main] DEBUG o.e.m.m.UserMapper.insertUserByMap [BaseJdbcLogger.java : 137] - ==>  Preparing: insert into t_user values(null, ?, ?, ?, ?, ? )
+2023-01-15 23:54:49,127 [main] DEBUG o.e.m.m.UserMapper.insertUserByMap [BaseJdbcLogger.java : 137] - ==> Parameters: wwy(String), 150724(String), 18(String), 女(String), 123321312@gmail.com(String)
+2023-01-15 23:54:49,132 [main] DEBUG o.e.m.m.UserMapper.insertUserByMap [BaseJdbcLogger.java : 137] - <==    Updates: 1
+2023-01-15 23:54:49,133 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 91] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4d1bf319]
+2023-01-15 23:54:49,133 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 391] - Returned connection 1293677337 to pool.
+2023-01-16 00:22:32,426 [main] DEBUG org.apache.ibatis.logging.LogFactory [LogFactory.java : 105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-16 00:22:32,453 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-16 00:22:32,453 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-16 00:22:32,453 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-16 00:22:32,453 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-16 00:22:32,554 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 137] - Opening JDBC Connection
+2023-01-16 00:22:33,095 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 434] - Created connection 1551945522.
+2023-01-16 00:22:33,099 [main] DEBUG o.e.m.m.UserMapper.checkLoginByPara [BaseJdbcLogger.java : 137] - ==>  Preparing: select * from t_user where username = ? and password = ?
+2023-01-16 00:22:33,131 [main] DEBUG o.e.m.m.UserMapper.checkLoginByPara [BaseJdbcLogger.java : 137] - ==> Parameters: zsy(String), 150724(String)
+2023-01-16 00:22:33,188 [main] TRACE o.e.m.m.UserMapper.checkLoginByPara [BaseJdbcLogger.java : 143] - <==    Columns: id, username, password, age, gender, email
+2023-01-16 00:22:33,188 [main] TRACE o.e.m.m.UserMapper.checkLoginByPara [BaseJdbcLogger.java : 143] - <==        Row: 3, zsy, 150724, 23, 男, 123456@qq.com
+2023-01-16 00:22:33,190 [main] DEBUG o.e.m.m.UserMapper.checkLoginByPara [BaseJdbcLogger.java : 137] - <==      Total: 1
+2023-01-16 00:22:33,193 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 91] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c80cf32]
+2023-01-16 00:22:33,194 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 391] - Returned connection 1551945522 to pool.
