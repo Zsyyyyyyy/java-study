@@ -1,0 +1,14 @@
+2023-01-29 22:50:53,591 [main] DEBUG org.apache.ibatis.logging.LogFactory [LogFactory.java : 105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-29 22:50:53,617 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-29 22:50:53,618 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-29 22:50:53,618 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-29 22:50:53,618 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-29 22:50:53,743 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 137] - Opening JDBC Connection
+2023-01-29 22:50:54,323 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 434] - Created connection 93740343.
+2023-01-29 22:50:54,327 [main] DEBUG o.e.m.m.UserMapper.checkLoginByPara [BaseJdbcLogger.java : 137] - ==>  Preparing: select * from t_user where username = ? and password = ?
+2023-01-29 22:50:54,354 [main] DEBUG o.e.m.m.UserMapper.checkLoginByPara [BaseJdbcLogger.java : 137] - ==> Parameters: zsy(String), 150724(String)
+2023-01-29 22:50:54,412 [main] TRACE o.e.m.m.UserMapper.checkLoginByPara [BaseJdbcLogger.java : 143] - <==    Columns: id, username, password, age, gender, email
+2023-01-29 22:50:54,413 [main] TRACE o.e.m.m.UserMapper.checkLoginByPara [BaseJdbcLogger.java : 143] - <==        Row: 3, zsy, 150724, 23, 男, 123456@qq.com
+2023-01-29 22:50:54,415 [main] DEBUG o.e.m.m.UserMapper.checkLoginByPara [BaseJdbcLogger.java : 137] - <==      Total: 1
+2023-01-29 22:50:54,417 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 91] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5965d37]
+2023-01-29 22:50:54,418 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 391] - Returned connection 93740343 to pool.
