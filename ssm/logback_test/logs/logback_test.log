@@ -12,3 +12,15 @@
 2023-01-29 22:50:54,415 [main] DEBUG o.e.m.m.UserMapper.checkLoginByPara [BaseJdbcLogger.java : 137] - <==      Total: 1
 2023-01-29 22:50:54,417 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 91] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5965d37]
 2023-01-29 22:50:54,418 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 391] - Returned connection 93740343 to pool.
+2023-01-29 23:27:54,444 [main] DEBUG org.apache.ibatis.logging.LogFactory [LogFactory.java : 105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-01-29 23:27:54,485 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-29 23:27:54,485 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-29 23:27:54,486 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-29 23:27:54,487 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 363] - PooledDataSource forcefully closed/removed all connections.
+2023-01-29 23:27:54,648 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 137] - Opening JDBC Connection
+2023-01-29 23:27:55,273 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 434] - Created connection 1272883899.
+2023-01-29 23:27:55,277 [main] DEBUG o.e.m.m.U.insertUserByObject [BaseJdbcLogger.java : 137] - ==>  Preparing: insert into t_user values(null, ?, ?, ?, ?, ?)
+2023-01-29 23:27:55,315 [main] DEBUG o.e.m.m.U.insertUserByObject [BaseJdbcLogger.java : 137] - ==> Parameters: wangwenya(String), 123456(String), 18(Integer), 女(String), 123@qq.com(String)
+2023-01-29 23:27:55,326 [main] DEBUG o.e.m.m.U.insertUserByObject [BaseJdbcLogger.java : 137] - <==    Updates: 1
+2023-01-29 23:27:55,327 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 91] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4bdeaabb]
+2023-01-29 23:27:55,328 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 391] - Returned connection 1272883899 to pool.

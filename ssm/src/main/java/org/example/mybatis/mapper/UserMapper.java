@@ -20,7 +20,10 @@ public interface UserMapper {
 
     int insertUserByMap(Map map);
 
+    /* 通过实体类传参 */
+    int insertUserByObject(User user);
 
+    /* 通过param注解传参*/
     User checkLoginByPara(@Param("username") String username, @Param("password") String password );
 
 }
