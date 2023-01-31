@@ -16,6 +16,9 @@ public interface UserMapper {
 
     User getUserByName(String username);
 
+    User getUserById(int id);
+
+
     User checkLogin(Map map);
 
     int insertUserByMap(Map map);

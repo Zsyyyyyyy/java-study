@@ -44,8 +44,11 @@ public class MyBatisTest {
 //        User zsy = userMapper.checkLoginByPara("zsy", "150724");
         User user = new User(123,"wangwenya","123456",18,"女","123@qq.com");
 
-        userMapper.insertUserByObject(user);
+//        userMapper.insertUserByObject(user);
 //        System.out.println(zsy);
+
+//        System.out.println(userMapper.getUserById(2));
+        System.out.println(userMapper.getAllUser());
 
 
         sqlSession.close();
