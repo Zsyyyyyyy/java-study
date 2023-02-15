@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ssm" />
         <module name="jdbc" />
+        <module name="springtest1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
