@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ssm" />
         <module name="jdbc" />
+        <module name="ssm" />
         <module name="springtest1" />
+        <module name="springboottest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
